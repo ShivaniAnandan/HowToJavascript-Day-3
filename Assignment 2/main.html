@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Names Carousel</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 50px;
+    }
+    #nameDisplay {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .container{
+        margin: 10% 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button{
+        padding: 10px 15px;
+        border-radius: 18px;
+        border: none;
+        border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <button onclick="showPrevious()">Previous</button>
+  <h3 id="nameDisplay"></h3>
+  <button onclick="showNext()">Next</button>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
